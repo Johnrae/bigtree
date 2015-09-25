@@ -74,7 +74,7 @@ box-shadow: 2px black;
 }
 
 .table1, .table2, .table3 {
-  margin: 0 20px;
+  margin: 0 10px;
   color: white;
 }
 
@@ -151,10 +151,9 @@ p.month3 {
 }
 
 div.par {
-  height: 200px;
-  max-width: 400px;
+  width: 100%;
+  max-width: 500px;
   display: inline-block;
-  padding: 25px 50px;
 }
 
 
