@@ -42,19 +42,44 @@ box-shadow: 2px black;
   box-shadow: 5px black;
 }
 
+.wrapper {
+  margin: 0 auto;
+  width: 66.6%;
+}
+
+
 .tables {
   text-align: center;
+  -webkit-columns: 350px 3;
+  -moz-columns: 350px 3;
+  columns: 350px 3;
+  max-width: 100%;
+  display: inline-block;
+/*  padding: 0 25%;*/
+  margin-top: 50px;
+
+
+}
+
+.tables th {
+  height: 200px;
 }
 
 .tables td {
-  border: 2px solid #DFDFDF;
+  border: 1px solid #DFDFDF;
   height: 45px;
-  width: 230px;
+  width: 300px;
   background-color: #F7F7F7;
+  color: #5E6B71;;
+}
+
+.table1, .table2, .table3 {
+  margin: 0 20px;
+  color: white;
 }
 
 button {
-  border: 2px solid grey;
+  border: 1px solid #DFDFDF;
   -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -66,7 +91,81 @@ button {
 
 }
 
-.button {
+td.button {
   background-color: white;
+  height: 75px;
 }
 
+.table1 th {
+  background: #4F934E;
+}
+
+.table2 th {
+  background: #2A4787;
+}
+
+.table3 th {
+  background: #101010;
+}
+
+p.type {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 200;
+}
+
+p.money {
+  font-size: 100px;
+  font-weight: 200;
+  margin: 0;
+
+}
+
+p.month1 {
+  color: #A6C8A6;
+  font-weight: 200;
+}
+
+p.month2 {
+  color: #93A1C2;
+  font-weight: 200;
+}
+
+p.month3 {
+  color: #858585;
+  font-weight: 200;
+}
+
+
+.text {
+ /* width: 75%;*/
+  /*margin: 0 auto;*/
+  font-size: 20px;
+  overflow: auto;
+  zoom: 1;
+  -webkit-column-count: 2;
+   -moz-column-count: 2;
+   colum-count: 2;
+
+}
+
+div.par {
+  height: 200px;
+  max-width: 400px;
+  display: inline-block;
+  padding: 25px 50px;
+}
+
+
+footer{
+  text-align: center;
+  background: black;
+  color: #7C7C7C;
+  padding: 25px 0;
+}
+
+a {
+
+  color: white;
+}
