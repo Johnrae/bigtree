@@ -39,7 +39,7 @@ box-shadow: 2px black;
 
 .imagetxt {
   padding-top: 250px;
-  text-shadow: 0 2px 2px black;
+  text-shadow: 0 1px 1px black;
 }
 
 .wrapper {
@@ -62,7 +62,7 @@ box-shadow: 2px black;
 }
 
 .tables th {
-  height: 300px;
+  height: 250px;
 }
 
 .tables td {
@@ -140,7 +140,7 @@ p.month3 {
 
 
 .text {
-  padding-top: 20px;
+  padding: 20px 40px 10px;
   font-size: 20px;
   overflow: auto;
   zoom: 1;
